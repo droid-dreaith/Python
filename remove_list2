@@ -1,0 +1,16 @@
+#assign import file to the name of the file
+import_file = "allow_list.txt"
+
+remove_list2 =["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
+
+# Build `with` statement to read in the initial contents of the file
+with open(import_file, "r") as file:
+    ip_addresses = file.read()
+ip_addresses = ip_addresses.split()
+
+#build iterative statement
+#name the loop variable "element"
+#loop through the ip_addresses
+
+for element in ip_addresses:
+    print(element)
