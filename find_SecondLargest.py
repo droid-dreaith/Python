@@ -8,7 +8,7 @@ def find_SecondLargest(arr):
     # Remove duplicates by converting to a set, then back to a list
     unique_arr = list(set(arr))
 
-    # Sort the unique list
+    # Sort the unique  4"""  """
     unique_arr.sort()
 
     # Return the second largest element
